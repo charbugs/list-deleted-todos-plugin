@@ -45,7 +45,7 @@ const mapDispatchToProps = {
   addTodoItem: ExtensibleTodoApp.actions.addTodoItem
 }
 
-export const listDeletedTodos = {
+export default {
   target: ExtensibleTodoApp.components.App,
   modus: 'add',
   component: DeletedTodos,
@@ -55,6 +55,3 @@ export const listDeletedTodos = {
     deletedTodos: deletedTodosReducer,
   }
 };
-
-const store = ExtensibleTodoApp.init('app', [listDeletedTodos]);
-//console.log(store.getState());
