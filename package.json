@@ -1,0 +1,32 @@
+{
+  "name": "@charbugs/list-deleted-todos-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charbugs/list-deleted-todos-plugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charbugs/list-deleted-todos-plugin/issues"
+  },
+  "homepage": "https://github.com/charbugs/list-deleted-todos-plugin#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1"
+  }
+}
