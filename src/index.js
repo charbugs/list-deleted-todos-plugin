@@ -45,8 +45,8 @@ const mapDispatchToProps = {
   addTodoItem: ExtensibleTodoApp.actions.addTodoItem
 }
 
-export default {
-  target: ExtensibleTodoApp.components.App,
+const plugin = {
+  target: 'App',
   modus: 'add',
   component: DeletedTodos,
   mapStateToProps: mapStateToProps,
@@ -55,3 +55,5 @@ export default {
     deletedTodos: deletedTodosReducer,
   }
 };
+
+export default plugin;
