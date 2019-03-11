@@ -56,6 +56,4 @@ const plugin = {
   }
 };
 
-ExtensibleTodoApp.init('app', []);
-
 export default plugin;
